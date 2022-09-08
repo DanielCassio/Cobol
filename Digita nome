@@ -1,0 +1,17 @@
+       *****************************************************************
+       * AUTHOR: DANIEL
+       * DATA: 02/09/2022
+       * PRIMEIRO PROGRAMA EM COBOL
+       *****************************************************************
+       
+       IDENTIFICATION DIVISION
+       PROGRAM-ID. testecob.
+       DATA DIVISION.
+       working-storage section.
+       77 WS-NOME  PIC X(10).
+       PROCEDURE DIVISION.
+           DISPLAY "digite o nome: "
+           ACCEPT ws-nome
+           DISPLAY "O nome digitado: " ws-nome
+           STOP RUN.
+           END PROGRAM.
